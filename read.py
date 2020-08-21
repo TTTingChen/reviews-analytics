@@ -1,5 +1,5 @@
 data = []
-count = 0#每讀1000筆印一次
+count = 0 #每讀1000筆印一次
 with open('reviews.txt', 'r') as f:
 	for line in f:
 		data.append(line)
